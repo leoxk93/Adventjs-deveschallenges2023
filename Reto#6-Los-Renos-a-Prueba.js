@@ -24,7 +24,7 @@ console.log(result3) // -> 5
 Ten en cuenta que no importa si es a la izquierda o la derecha, la distancia es el valor absoluto de la distancia recorrida máxima al finalizar los movimientos. */
 
 function maxDistance(movements: String){
-    let distacia = 0
+    let distancia = 0
     let comodines = 0
 
     for (const signo of movements){
